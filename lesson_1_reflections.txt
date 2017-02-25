@@ -7,24 +7,24 @@ in bash: diff -u 'old_file' 'new_file'
 shows the differences between two files. diff even shows what was added (+) and what was removed (-)
 -u is for nicer layout of return
 
-How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+How could having easy access to the entire history of a file make you a more efficient programmingmmer in the long term?
 seeing what you changed or with what ideas you started can help you see your own progress or the differences in your ideas since you started the project. also if you made major changes and nothing seems to work anymore, you can see what you changed or even go back and start new from the old version.
 
 What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
-The pros are that the file is commited only when a reasonable change happened and that the number of commits doesn't go through the roof. Another positive thing is that in Git every commit has its commit message. the cons are that the change might be large, if you forgot to save or were to lazy to commit and that the change might not be logical as the commit happened during programming or fixing a feature.
+	The pros are that the file is commited only when a reasonable change happened and that the number of commits doesn't go through the roof. Another positive thing is that in Git every commit has its commit message. the cons are that the change might be large, if you forgot to save or were to lazy to commit and that the change might not be logical as the commit happened during programming or fixing a feature.
 
 Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
-Commiting multiple files is nice if the files are related to each other and the changes can affect all files.
+	Commiting multiple files is nice if the files are related to each other and the changes can affect all files.
 
 
 How can you use the commands git log and git diff to view the history of files?
-git log shows all commits and the commit messages including the commit ID. git diff 'oldID' 'newID' shows the differences (+ and -) from the two versions of the same file.
+	git log shows all commits and the commit messages including the commit ID. git diff 'oldID' 'newID' shows the differences (+ and -) from the two versions of the same file.
 
 How might using version control make you more confident to make changes that could break something?
-As in version conrol it is quite easy to follow your steps you did and even reverse it to a previous version making changes that could break something can be tried out more easily. No risk, no fun... However, with the possibility to reverse the risk.
+	As in version conrol it is quite easy to follow your steps you did and even reverse it to a previous version making changes that could break something can be tried out more easily. No risk, no fun... However, with the possibility to reverse the risk.
 
 Now that you have your workspace set up, what do you want to try using Git for?
-I want to use it for a project with a colleague of mine. We want to create an app and as we are working as two version-control is a very convenient way to do, so that neither of us screw up. also the possibility to see the change of the program is very useful.
+	I want to use it for a project with a colleague of mine. We want to create an app and as we are working as two version-control is a very convenient way to do, so that neither of us screw up. also the possibility to see the change of the program is very useful.
 
 COLORs in GitBash prompt
 		RED="\[\033[0;31m\]"
