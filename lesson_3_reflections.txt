@@ -1,2 +1,17 @@
 When would you want to use a remote repository rather than keeping all your work local?
-  If I want to share my work with others or work together with others for a project. Also, if I can't work with the same computer at different locations, e.g. home and workplace...
+	If I want to share my work with others or work together with others for a project. Also, if I can't work with the same computer at different locations, e.g. home and workplace...
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+	If the changes are not complete yet or the changes are experimental, I don't want to share my current files with everyone. I don't want files, which were added by someone on my computer either, if I don't know what the changes were.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+	Forks are cloned repositories on GitHub, clones are locally cloned repositories from GitHub and branches are different version paths in a single repository.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+	On the one hand I can see what I did since I connected with GitHub. On the other hand, if something went wrong I have the possibility to go back to the working version without having to connect to the internet again.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+	Via mail, via USB drive, via Chat. Easier: No learning of software. Harder: no version-control
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+	If I am not sure that the changes are approved for all collaborators or if I want feedback from the other collaborators. Different branch and pull-request: eveybody gets to see what was changed and master always works. Directly master: No need for complex checking and controlling all the different changes 
